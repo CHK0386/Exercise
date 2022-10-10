@@ -18,25 +18,35 @@ img{
   .footer{
     display: inline-flex;
   }
-  .item1 { grid-area: header; }
-  .item2 { grid-area: menu; }
-  .item3 { grid-area: main; }
-  .item4 { grid-area: footer; }
-  
-  .grid-container {
-    display: grid;
-    grid-template-areas:
-      'header header header header header header'
-      'menu main main main main  main'
-      'menu footer footer footer footer footer';
-    gap: 10px;
-    background-color: #2196F3;
-    padding: 10px;
-  }
-  
-  .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-  }
+  .feature-layout {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* PC, Tablet */
+@media (min-width: 740px) {
+    .feature-layout {
+        flex-direction: row;
+    }
+}
+
+.feature-item {
+    padding: 12px 16px;
+    margin-top: 16px;
+    flex-basis: 30%;
+}
+
+.feature-item:nth-child(1) {
+    background-color: rgb(192, 227, 222);
+
+}
+
+.feature-item:nth-child(2) {
+    background-color: rgb(227, 200, 192);
+}
+
+.feature-item:nth-child(3) {
+    background-color: rgb(226, 192, 227);
+}
