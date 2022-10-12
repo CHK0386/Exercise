@@ -1,0 +1,81 @@
+.all-box {
+    font-family: Tahoma;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 50%;
+  }
+  .A-box,
+  .B-box,
+  .F-box {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .A-box,
+  .B-box {
+    border-width: 1px;
+    border-color: #687291;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+  }
+  .A-box {
+    background-color: #dfe1e7;
+  }
+  .B-box {
+    background-color: #eeeff2;
+  }
+  .F-box {
+    background-color: #687291;
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+  }
+Lộc
+Thanh Lộc
+.all-box-B {
+    font-family: Tahoma;
+    font-size: 40px;
+  }
+  .fine-box-B {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 0%;
+  }
+  .box-A,
+  .box-F {
+    display: flex;
+    flex-direction: row;
+    background-color: #eeeff2;
+    width: 100px;
+    height: 150px;
+    cursor: pointer;
+  }
+  .box-A {
+    margin-right: 10px;
+  }
+  .box-F {
+    margin-left: 100%;
+    margin-top: 100%;
+  }
+  .A-box-B {
+    margin-left: 10%;
+  }
+
+  .dashed-line {
+    height: 10px;
+    width: 10px;
+    background-color: #d0d0ff;
+    margin-bottom: 10px;
+  }
+
+  .box-A:hover,
+  .box-F:hover {
+    transition: 0.75;
+    background-color: yellow;
+    color: goldenrod;
+  }
