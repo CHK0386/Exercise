@@ -1,4 +1,4 @@
-//1
+//1,3
 $(document).ready(function () {
     $("#submit").click(function(event){
         $('#submit').val('Processing …');
@@ -10,8 +10,3 @@ $(document).ready(function () {
     });
 });
 
-//3
-function myFunction() {
-    var x = document.getElementById("myForm").action;
-    document.getElementById("demo").innerHTML = x;
-  }

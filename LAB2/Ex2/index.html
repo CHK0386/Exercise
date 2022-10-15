@@ -17,5 +17,14 @@
 
     
     <script src="main.js"></script>
+
+    <div>
+        <script language="javascript" type-"text/javascript">
+            var current = new Date().getFullYear();
+            var birthday = prompt("Nhập vào ngày tháng năm sinh theo định dạng 'MM/dd/yyyy':", "04/30/1993");
+            birthday = new Date(birthday).getFullYear();
+            alert("Tuổi của bạn là: " + (current - birthday));
+        </script>
+    </div>
 </body>
 </html>
