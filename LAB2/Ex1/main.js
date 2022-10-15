@@ -56,8 +56,8 @@ function myFunction() {
       return false;
     }
   };
-  console.log(isValidJSON('{"name":"Adam","age":20}'));
-  console.log(isValidJSON('{"name":"Adam",age:"20"}'));
+  console.log(isValidJSON('{"name":"Khang","age":21}'));
+  console.log(isValidJSON('{"name":"Khang",age:"21"}'));
   console.log(isValidJSON(null));
 
   
