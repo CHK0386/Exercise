@@ -1,4 +1,5 @@
 import './App.css';
+import React from "react";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter>    
+    
   );
 }
 
