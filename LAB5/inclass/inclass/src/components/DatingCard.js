@@ -2,8 +2,6 @@ import React, {useState, useEffect} from 'react'
 // import Dating from 'react-tinder-card'
 // import './DatingCards.css'
 import axios from './axios'
-// import axiosClient from '../api/axiosClient'
-import axiosClient from '../api/productApi'
 
 const DatingCards = () => {
     const [people, setPeople] = useState([])
